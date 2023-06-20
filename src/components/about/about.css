@@ -60,7 +60,7 @@
     margin-top: 100px;
     width: 300%;
     height: 400px;
-    animation: move 30s ease-in-out infinite alternate;
+    animation: move 30s ease-in-out infinite;
     
 }
 
