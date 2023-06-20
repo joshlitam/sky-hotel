@@ -1,0 +1,54 @@
+.f {
+    height: 60vh;
+    padding-top: 100px;
+    background-color: #3153b6;
+}
+
+.f-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.f-title {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.f-accent {
+    margin-bottom: 40px;
+}
+
+.f-card-wrapper {
+    width: 80%;
+    background-color: white;
+    height: 70%;
+    display: flex;
+    
+}
+
+@media screen and (max-width: 480px) {
+    .f {
+        margin-top: 20px;
+        height: 210vh;
+        padding-top: 30px;
+    }
+
+    .f-title {
+        font-size: 2.75rem;
+    }
+    
+    .f-accent {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .f-card-wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    
+}

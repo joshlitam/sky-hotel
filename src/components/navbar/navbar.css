@@ -1,0 +1,67 @@
+.n {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+.n-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.n-list {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.n-list-item-container {
+    flex: 1;
+    text-align: center;
+}
+
+.n-list-item {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.n-list-item:hover {
+    color: gray
+}
+
+.n-wrapper-collapsed {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .n-wrapper {
+        display: none;
+    }
+
+    .n-wrapper-collapsed {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    .n-logo {
+        width: 30%;
+    }
+
+    .n-hamburg {
+        width: 10%;
+        height: 10%;
+        margin-top: 10px;
+        margin-right: 10px;
+        background-color: hsla(0, 0%, 100%, 0%);
+        border: none;
+    }
+
+    .n-hamburg-pic {
+        height: 100%;
+        width: 100%;
+    }
+}

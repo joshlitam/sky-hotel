@@ -1,0 +1,113 @@
+.c {
+    height: 60vh;
+}
+
+.c-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.c-left {
+    padding-top: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-left-title {
+    color: rgb(241, 202, 130);
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.c-left-accent {
+    margin-bottom: 30px;
+}
+
+.c-right {
+    flex: 1;
+    background-color: rgb(170, 120, 57);
+    height: 100%;
+}
+
+.c-right-wrapper {
+    padding-top: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.c-title {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.c-caption {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.c-input {
+    width: 90%;
+    height: 8%;
+}
+
+.c-textarea {
+    width: 90%;
+    height: 30%;
+}
+
+.c-button {
+    padding: 10px 20px;
+    align-self: flex-end;
+    margin-right: 5%;
+    border-radius: 5%;
+
+}
+
+.c-iframe {
+    width: 70%;
+    height: 70%;
+}
+
+@media screen and (max-width: 480px) {
+    .c {
+        height: 150vh;
+    }
+    .c-wrapper {
+        flex-direction: column;
+    }
+
+    .c-left {
+        height: 50%;
+        padding-bottom: 20px;
+    }
+
+    .c-iframe {
+        height: 80%;
+        width: 80%;
+    }
+
+    .c-title {
+        font-size: 2rem
+    };
+
+    .c-input {
+        height: 20%;
+    }
+}

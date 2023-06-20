@@ -1,0 +1,41 @@
+.fc {
+    background-color: #3153b6;
+    flex: 1;
+    height: 100%;
+}
+
+.fc-picture {
+    width: 50%;
+    height: 30%;
+}
+
+.fc-wrapper {
+    margin: 10px 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.fc-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.fc-caption {
+    width: 80%;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 480px) {
+    .fc-wrapper {
+        padding-top: 30px;
+    }
+    
+    .fc-caption {
+        width: 100%;
+    }
+}

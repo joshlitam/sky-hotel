@@ -1,0 +1,143 @@
+.a {
+    height: 70vh;
+    margin-top: 100px;
+}
+
+.a-wrapper {
+    display: flex;
+    margin: 0px 100px
+}
+
+.a-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.a-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-title {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: rgb(241, 202, 130);
+}
+
+.a-accent {
+    width: 70%;
+}
+
+.a-caption {
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 85%;
+    text-align: center;
+}
+
+.a-button {
+    width: 30%;
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(218, 165, 32, 100%);
+    cursor: pointer;
+
+}
+
+.a-right {
+    flex: 1;
+    overflow: hidden;
+}
+
+.a-img-container {
+    margin-top: 100px;
+    width: 300%;
+    height: 400px;
+    animation: move 30s ease-in-out infinite alternate;
+    
+}
+
+.a-img {
+    width: 33%;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-33%);
+    }
+    50% {
+        transform: translateX(-66%);
+    }
+    75%{
+        transform: translateX(-33%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.a-button-collapsed {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .a {
+        height: 85vh;
+    }
+    .a {
+        margin-top: 60px;
+    }
+
+    .a-wrapper {
+        margin: 0 20px;
+        flex-direction: column;
+    }
+
+    .a-left {
+        width: 100%;
+    }
+
+    .a-title {
+        font-size: 2.75rem;
+    }
+    .a-caption {
+        font-size: 1rem;
+
+    }
+
+    .a-button {
+        display: none;
+    }
+    
+    .a-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .a-img-container {
+        margin-top: 40px;
+        height: 200px;
+    }
+
+    .a-button-collapsed {
+        display: block;
+        width: 80%;
+        padding: 20px 30px;
+        border-radius: 5px;
+        color: white;
+        background-color: rgba(218, 165, 32, 100%);
+        cursor: pointer;
+    }
+}
