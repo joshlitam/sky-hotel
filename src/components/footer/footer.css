@@ -1,0 +1,19 @@
+.e {
+    height: 10vh;
+    background-color: #3153b6;
+}
+
+.e-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.e-logo {
+    height: 60%;
+}
+
+.e-copyright {
+    color: white;
+}
